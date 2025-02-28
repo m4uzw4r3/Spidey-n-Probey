@@ -4,7 +4,7 @@ import urllib
 from urllib.parse import urljoin
 
 
-visited_urls = set() #it will remoev duplicates of url
+visited_urls = set() #it will remove duplicates of url
 
 
 def spidey(url, keyword):
@@ -25,7 +25,7 @@ def spidey(url, keyword):
 			href_tag = tag.get("href")
 			if href_tag is not None and href_tag != "":
 				url_list.append(href_tag)
-		#print(url_list)
+		
 
 		#removing duplicate links
 		for i in url_list:
@@ -41,7 +41,7 @@ def spidey(url, keyword):
 				pass
 
 
-url = input("[*] Enter URL You Want To Scrape: ")
+url = input("[*] Enter URL You Want To Scrap: ")
 keyword = input("[*] Enter The KeyWord To Search For: ")
 spidey(url, keyword)
 
