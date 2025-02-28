@@ -9,7 +9,7 @@ python3 spidey.py
 -
 How to run Probey:
 
-cat your_wordlist_file.txt | python3
+cat your_wordlist_file.txt | python3 probey.py
 -
 *if wordlist file isn't in the same directory as probey.py then enter full path
 
