@@ -1,0 +1,16 @@
+WELCOME TO SPIDEY N PROBEY 
+
+Spidey will scrap for links
+Probey will check them
+
+How to run Spidey:
+
+python3 spidey.py
+-
+How to run Probey:
+
+cat your_wordlist_file.txt | python3
+-
+*if wordlist file isn't in the same directory as probey.py then enter full path
+
+ENJOY !!!!!
