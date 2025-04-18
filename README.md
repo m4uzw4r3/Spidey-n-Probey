@@ -8,6 +8,8 @@ WELCOME TO SPIDEY N PROBEY
 Spidey will scrap for links
 Probey will check them
 
+---
+
 How to run Spidey:
 
 python3 spidey.py
